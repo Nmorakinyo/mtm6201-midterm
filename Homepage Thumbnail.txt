@@ -1,0 +1,41 @@
+ <div id="product1">
+        <img src="images/homemadeapplepie.jpg" alt="Apple Pies">
+    </div>
+
+    <div id="product2">
+    <img src="images/cinnamoncrumbleapplepie.jpg" alt="Cinnamon Crumble Apple Pie">
+     </div>
+
+<div id="advert">
+    <img src="images/yummyyummy!.png" alt="Yummy Yummy!">
+</div>
+
+     <div id="product3">
+<img src="images/veganapplepie.jpg" alt="Vegan Apple Pie">
+     </div>
+
+     <div id="product4">
+     <img src="images/applepiesweetlycakes.jpg" alt="Apple Pie Sweetly Cakes">  
+     </div>
+
+
+
+
+  .Yummy-Yummy{
+    font-family: Bukhari Script;
+    size: 60px;
+    color: #E2890C;
+    border-color: greenyellow ;
+background-color: blueviolet;
+  }
+
+  .take-pride{
+    color: #eb2cd4;
+size: 40px;
+font-family: Shrikhand;
+  }
+
+
+  .References-text{
+background-color: #81CAF7;
+  }
