@@ -21,6 +21,7 @@ p {
 /* remove bullets from the nav */
 ul{
   list-style-type: none; 
+  font-size: 2em;
 }
 /* remove underline from the nav */
 ul a {
@@ -70,6 +71,16 @@ display: grid;
 grid-template-columns: 1fr 1fr;
 align-items: center;
 }
+
+.content_main {
+background-color: pink;
+}
+
+.references_main {
+  background-color: pink;
+  width: 100%;
+  }
+
 footer {
   width: 100%;
   text-align: center;
