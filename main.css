@@ -56,6 +56,16 @@ width: 100%;
 height: 100%;
 display: grid;
 grid-template-columns: 1fr 1fr;
+animation: animate 3s linear infinite;
+}
+
+@keyframes animate{
+  0%{
+    filter: hue-rotate(0deg);
+  }
+  100% {
+    filter: hue-rotate(360deg);
+  }
 }
 /* let each image occupy 100% of its grid */
 article img {
