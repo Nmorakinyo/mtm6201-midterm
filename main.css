@@ -104,4 +104,41 @@ footer {
     background-color: pink;
     padding: 60px;
   }
- 
+ /* Page 2 layout */
+
+ .content_main {
+  width: 100%
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* row-gap: 10px; */
+}
+/* let each image occupy 100% of its grid */
+article img {
+  width: 100%;
+  height: 100%;
+}
+
+article.applepies {
+  grid-column: span 2;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+article.applepies2{
+  grid-column: span 2;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+article.flavours {
+  grid-column: span 2;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+article.flavours2 {
+  grid-column: span 2;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
