@@ -56,9 +56,10 @@ width: 100%;
 height: 100%;
 display: grid;
 grid-template-columns: 1fr 1fr;
+/* animation of images - ref: https://www.youtube.com/watch?v=3eQS5dYyT9k */
 animation: animate 3s linear infinite;
 }
-
+/* keyframes for animation of images - ref: https://www.youtube.com/watch?v=3eQS5dYyT9k*/
 @keyframes animate{
   0%{
     filter: hue-rotate(0deg);
